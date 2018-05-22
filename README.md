@@ -54,6 +54,7 @@ A:Our program checks every time how many workers are alive, and adds the appropr
 Q:Threads in your application, when is it a good idea? When is it bad? Invest time to think about threads in your application!
 
 A:We have a use of more the one thread in:
+	
 	local app:
 		One thread that responsible for uploading the input files and sending the message to the manager with the adresses(bucket,key,localAppId
 		and output file name) of the file in the s3.
