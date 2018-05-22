@@ -5,9 +5,13 @@ Assignment guidelines: https://www.cs.bgu.ac.il/~dsp181/Assignments/Assignment_1
 
 
 Instructions:
+
 1.If you use not our credentials, open a bucket named "michaelandsofibucket" and upload there the jars of the manager and the worker.
+
 2.Change the path in the function "createHtmlFile" in "RecieverDownloader" class  to the path where the input and output files are on your computer
+
 3.Run the program 
+
 
 How our progrem works:
 A localapp checks if there is a manager node, if not, it starts a manager. than he uploads the input file to s3 and sends messages with the 
